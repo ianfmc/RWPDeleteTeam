@@ -1,4 +1,3 @@
-var AWSMock = require('aws-sdk-mock');
 var AWS = require('aws-sdk');
 
 var app = require('../index.js');
