@@ -8,6 +8,9 @@ var should = require('chai').should;
 var assert = require('chai').assert;
 
 describe('Delete a Team', function() { 
+	it('-- Always passes', function() {
+		return;
+	})
 });
 
 
