@@ -10,9 +10,9 @@ exports.handler = function(event, context, callback) {
 
         TableName : "Team",
         Key : { 
-          "TeamID" : event.TeamID,
+          "teamID" : event.TeamID,
         },
-        UpdateExpression: "set TeamStatus = :p",
+        UpdateExpression: "set status = :p",
         ExpressionAttributeValues:{
             ":p": "Inactive"
         }
