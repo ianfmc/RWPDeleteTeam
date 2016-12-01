@@ -12,7 +12,7 @@ exports.handler = function(event, context, callback) {
         Key : { 
           "teamID" : event.TeamID,
         },
-        UpdateExpression: "set status = :p",
+        UpdateExpression: "set teamStatus = :p",
         ExpressionAttributeValues:{
             ":p": "Inactive"
         }
