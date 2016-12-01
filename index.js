@@ -10,7 +10,7 @@ exports.handler = function(event, context, callback) {
 
         TableName : "Team",
         Key : { 
-          "teamID" : event.TeamID,
+          "teamID" : event.teamID.toString(),
         },
         UpdateExpression: "set teamStatus = :p",
         ExpressionAttributeValues:{
